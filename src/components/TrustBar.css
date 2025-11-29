@@ -1,0 +1,54 @@
+.trust-bar {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    padding: 2rem 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+    margin-top: 2rem;
+    flex-wrap: wrap;
+}
+
+.trust-item {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    font-size: 0.875rem;
+    color: var(--color-text-secondary);
+    font-weight: 500;
+}
+
+.trust-icon {
+    font-size: 1.25rem;
+}
+
+.browsers {
+    gap: 1rem;
+}
+
+.browser-icons {
+    display: flex;
+    gap: -0.5rem;
+    /* Overlap slightly */
+}
+
+.browser-icon {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: #ddd;
+    display: inline-block;
+    border: 2px solid white;
+}
+
+.browser-icon.chrome {
+    background-color: #4285F4;
+}
+
+/* Placeholder colors */
+.browser-icon.edge {
+    background-color: #0078D7;
+}
+
+.browser-icon.firefox {
+    background-color: #FF7139;
+}
